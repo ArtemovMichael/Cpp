@@ -51,8 +51,6 @@
 
 Например, для фильтра, заданного матрицей
 
-<img src="https://latex.codecogs.com/gif.latex?O_t=\text { Onset event at time bin } t " /> 
-
 ![encoding](https://latex.codecogs.com/svg.image?%5Cbegin%7Bbmatrix%7D1%20&%202%20&%203%20%5C%5C4%20&%205%20&%206%20%5C%5C7%20&%208%20&%209%20%5C%5C%5Cend%7Bbmatrix%7D)
 
 Значение каждого из цветов целевого пикселя `C[x][y]` будет определяться формулой
@@ -87,7 +85,7 @@ C[x][y] =
 
 `build/image_processor test_script/data/lenna.bmp test_script/data/lenna2.bmp -gs`
 
-![encoding](https://latex.codecogs.com/svg.image?R'%20=%20G'%20=%20B'%20=0.299%20R%20&plus;%200%20.587%20G%20&plus;%200%20.%20114%20B)
+![encoding](https://latex.codecogs.com/svg.image?{\color{Green}R'%20=%20G'%20=%20B'%20=0.299%20R%20&plus;%200%20.587%20G%20&plus;%200%20.%20114%20B})
 
 
 #### Negative (-neg)
