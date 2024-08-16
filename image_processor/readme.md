@@ -51,7 +51,7 @@
 
 Например, для фильтра, заданного матрицей
 
-![encoding](https://latex.codecogs.com/svg.image?%5Cbegin%7Bbmatrix%7D1%20&%202%20&%203%20%5C%5C4%20&%205%20&%206%20%5C%5C7%20&%208%20&%209%20%5C%5C%5Cend%7Bbmatrix%7D)
+![encoding](https://latex.codecogs.com/svg.image?{\color{White}%5Cbegin%7Bbmatrix%7D1%20&%202%20&%203%20%5C%5C4%20&%205%20&%206%20%5C%5C7%20&%208%20&%209%20%5C%5C%5Cend%7Bbmatrix%7D})
 
 Значение каждого из цветов целевого пикселя `C[x][y]` будет определяться формулой
 
@@ -75,7 +75,7 @@ C[x][y] =
 
 `build/image_processor test_script/data/lenna.bmp test_script/data/lenna2.bmp -crop 800 600`
 
-![encoding](https://latex.codecogs.com/svg.image?R'%20=%20G'%20=%20B'%20=0.299%20R%20&plus;%200%20.587%20G%20&plus;%200%20.%20114%20B)
+![encoding](https://latex.codecogs.com/svg.image?{\color{White}R'%20=%20G'%20=%20B'%20=0.299%20R%20&plus;%200%20.587%20G%20&plus;%200%20.%20114%20B})
 
 
 Если запрошенные ширина или высота превышают размеры исходного изображения, выдается доступная часть изображения.
@@ -85,7 +85,7 @@ C[x][y] =
 
 `build/image_processor test_script/data/lenna.bmp test_script/data/lenna2.bmp -gs`
 
-![encoding](https://latex.codecogs.com/svg.image?{\color{Green}R'%20=%20G'%20=%20B'%20=0.299%20R%20&plus;%200%20.587%20G%20&plus;%200%20.%20114%20B})
+![encoding](https://latex.codecogs.com/svg.image?{\color{White}R'%20=%20G'%20=%20B'%20=0.299%20R%20&plus;%200%20.587%20G%20&plus;%200%20.%20114%20B})
 
 
 #### Negative (-neg)
@@ -93,20 +93,20 @@ C[x][y] =
 
 `build/image_processor test_script/data/lenna.bmp test_script/data/lenna2.bmp -neg`
 
-![encoding](https://latex.codecogs.com/svg.image?R'%20=%201%20-%20R,%20G'%20=%201%20-%20G,%20B'%20=%201%20-%20B)
+![encoding](https://latex.codecogs.com/svg.image?{\color{White}R'%20=%201%20-%20R,%20G'%20=%201%20-%20G,%20B'%20=%201%20-%20B})
 
 
 #### Sharpening (-sharp)
 Повышение резкости. Достигается применением матрицы
 
-![encoding](https://latex.codecogs.com/svg.image?%5Cbegin%7Bbmatrix%7D%20&%20-1%20&%20%20%5C%5C-1%20&%205%20&%20-1%20%5C%5C%20&%20-1%20&%20%20%5C%5C%5Cend%7Bbmatrix%7D)
+![encoding](https://latex.codecogs.com/svg.image?{\color{White}%5Cbegin%7Bbmatrix%7D%20&%20-1%20&%20%20%5C%5C-1%20&%205%20&%20-1%20%5C%5C%20&%20-1%20&%20%20%5C%5C%5Cend%7Bbmatrix%7D})
 
 `build/image_processor test_script/data/lenna.bmp test_script/data/lenna2.bmp -sharp`
 
 #### Edge Detection (-edge threshold)
 Выделение границ. Изображение переводится в оттенки серого и применяется матрица
 
-![encoding](https://latex.codecogs.com/svg.image?%5Cbegin%7Bbmatrix%7D%20&%20-1%20&%20%20%5C%5C-1%20&%204%20&%20-1%20%5C%5C%20&%20-1%20&%20%20%5C%5C%5Cend%7Bbmatrix%7D)
+![encoding](https://latex.codecogs.com/svg.image?{\color{White}%5Cbegin%7Bbmatrix%7D%20&%20-1%20&%20%20%5C%5C-1%20&%204%20&%20-1%20%5C%5C%20&%20-1%20&%20%20%5C%5C%5Cend%7Bbmatrix%7D})
 
 `build/image_processor test_script/data/lenna.bmp test_script/data/lenna2.bmp -edge 1000`
 
@@ -120,7 +120,7 @@ C[x][y] =
 
 Значение каждого из цветов пикселя `C[x0][y0]` определяется формулой
 
-![encoding](https://latex.codecogs.com/svg.image?C%5Bx_0%5D%5By_0%5D%20%3D%20%5Csum_%7Bx%3D0%2Cy%3D0%7D%5E%7Bwidth-1%2C%20height-1%7DC%5Bx%5D%5By%5D%5Cfrac%7B1%7D%7B2%5Cpi%5Csigma%5E2%7De%5E%7B-%5Cfrac%7B%5Cleft%7Cx_o-x%5Cright%7C%5E2%20%26plus%3B%20%5Cleft%7Cy_o-y%5Cright%7C%5E2%7D%7B2%5Csigma%5E2%7D%7D)
+![encoding](https://latex.codecogs.com/svg.image?{\color{White}C%5Bx_0%5D%5By_0%5D%20%3D%20%5Csum_%7Bx%3D0%2Cy%3D0%7D%5E%7Bwidth-1%2C%20height-1%7DC%5Bx%5D%5By%5D%5Cfrac%7B1%7D%7B2%5Cpi%5Csigma%5E2%7De%5E%7B-%5Cfrac%7B%5Cleft%7Cx_o-x%5Cright%7C%5E2%20%26plus%3B%20%5Cleft%7Cy_o-y%5Cright%7C%5E2%7D%7B2%5Csigma%5E2%7D%7D})
 
 
 ### Дополнительный фильтр Mosaic (-mosaic parameter)
