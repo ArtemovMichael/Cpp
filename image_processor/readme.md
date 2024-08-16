@@ -75,26 +75,19 @@ C[x][y] =
 
 `build/image_processor test_script/data/lenna.bmp test_script/data/lenna2.bmp -crop 800 600`
 
-![encoding](https://latex.codecogs.com/svg.image?{\color{White}R'%20=%20G'%20=%20B'%20=0.299%20R%20&plus;%200%20.587%20G%20&plus;%200%20.%20114%20B})
-
-
 Если запрошенные ширина или высота превышают размеры исходного изображения, выдается доступная часть изображения.
 
 #### Grayscale (-gs)
-Преобразует изображение в оттенки серого по формуле: `R' = G' = B' = 0.299R + 0.587G + 0/114B`
+Преобразует изображение в оттенки серого по формуле: 
+![encoding](https://latex.codecogs.com/svg.image?{\color{White}R'%20=%20G'%20=%20B'%20=0.299%20R%20&plus;%200%20.587%20G%20&plus;%200%20.%20114%20B})
 
 `build/image_processor test_script/data/lenna.bmp test_script/data/lenna2.bmp -gs`
 
-![encoding](https://latex.codecogs.com/svg.image?{\color{White}R'%20=%20G'%20=%20B'%20=0.299%20R%20&plus;%200%20.587%20G%20&plus;%200%20.%20114%20B})
-
-
 #### Negative (-neg)
-Преобразует изображение в негатив по формуле: `R' = 1 - R, G' = 1 - G, B' = 1 - B`
-
-`build/image_processor test_script/data/lenna.bmp test_script/data/lenna2.bmp -neg`
-
+Преобразует изображение в негатив по формуле: 
 ![encoding](https://latex.codecogs.com/svg.image?{\color{White}R'%20=%201%20-%20R,%20G'%20=%201%20-%20G,%20B'%20=%201%20-%20B})
 
+`build/image_processor test_script/data/lenna.bmp test_script/data/lenna2.bmp -neg`
 
 #### Sharpening (-sharp)
 Повышение резкости. Достигается применением матрицы
@@ -123,11 +116,15 @@ C[x][y] =
 ![encoding](https://latex.codecogs.com/svg.image?{\color{White}C%5Bx_0%5D%5By_0%5D%20%3D%20%5Csum_%7Bx%3D0%2Cy%3D0%7D%5E%7Bwidth-1%2C%20height-1%7DC%5Bx%5D%5By%5D%5Cfrac%7B1%7D%7B2%5Cpi%5Csigma%5E2%7De%5E%7B-%5Cfrac%7B%5Cleft%7Cx_o-x%5Cright%7C%5E2%20%26plus%3B%20%5Cleft%7Cy_o-y%5Cright%7C%5E2%7D%7B2%5Csigma%5E2%7D%7D})
 
 
-### Дополнительный фильтр Mosaic (-mosaic parameter)
+#### Дополнительный фильтр Mosaic (-mosaic parameter)
 Фильтр преобразует картинку в мозаику, где параметр это сторона квадрата.
 
 `build/image_processor test_script/data/lenna.bmp test_script/data/lenna2.bmp -mosaic 20`
 
-## Тестирование
+## Тестирование фильтров
 
 Для тестирования работоспособности базовых фильтров в терминале необходимо прописать `test_script/test_image_processor.py build/image_processor`
+
+
+## Unit tests
+TODO
