@@ -1,4 +1,0 @@
-/home/michael/ami-2310-2-Michael-Artemov-MichaelArtemov/tasks/image_processor/unit_tests/build/CMakeFiles/contrib_catch_main.dir
-/home/michael/ami-2310-2-Michael-Artemov-MichaelArtemov/tasks/image_processor/unit_tests/build/CMakeFiles/unit_tests.dir
-/home/michael/ami-2310-2-Michael-Artemov-MichaelArtemov/tasks/image_processor/unit_tests/build/CMakeFiles/edit_cache.dir
-/home/michael/ami-2310-2-Michael-Artemov-MichaelArtemov/tasks/image_processor/unit_tests/build/CMakeFiles/rebuild_cache.dir
