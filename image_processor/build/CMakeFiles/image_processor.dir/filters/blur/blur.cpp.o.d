@@ -1,8 +1,8 @@
 CMakeFiles/image_processor.dir/filters/blur/blur.cpp.o: \
- /home/michael/Repositiries/C++/image_processor/filters/blur/blur.cpp \
+ /home/michael/Repositiries/Cpp/image_processor/filters/blur/blur.cpp \
  /usr/include/stdc-predef.h \
- /home/michael/Repositiries/C++/image_processor/filters/blur/blur.h \
- /home/michael/Repositiries/C++/image_processor/filters/blur/../filter.h \
+ /home/michael/Repositiries/Cpp/image_processor/filters/blur/blur.h \
+ /home/michael/Repositiries/Cpp/image_processor/filters/blur/../filter.h \
  /usr/include/c++/13/fstream /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -160,8 +160,8 @@ CMakeFiles/image_processor.dir/filters/blur/blur.cpp.o: \
  /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
  /usr/include/c++/13/bits/fstream.tcc \
- /home/michael/Repositiries/C++/image_processor/filters/blur/../../picture/picture.h \
- /home/michael/Repositiries/C++/image_processor/filters/blur/../../picture/pixel.h \
+ /home/michael/Repositiries/Cpp/image_processor/filters/blur/../../picture/picture.h \
+ /home/michael/Repositiries/Cpp/image_processor/filters/blur/../../picture/pixel.h \
  /usr/include/c++/13/cstdint \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \

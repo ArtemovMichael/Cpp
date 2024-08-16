@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/michael/Repositiries/C++/image_processor
+CMAKE_SOURCE_DIR = /home/michael/Repositiries/Cpp/image_processor
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/michael/Repositiries/C++/image_processor/build
+CMAKE_BINARY_DIR = /home/michael/Repositiries/Cpp/image_processor/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/image_processor.dir/depend.make
@@ -70,214 +70,214 @@ include CMakeFiles/image_processor.dir/progress.make
 include CMakeFiles/image_processor.dir/flags.make
 
 CMakeFiles/image_processor.dir/image_processor.cpp.o: CMakeFiles/image_processor.dir/flags.make
-CMakeFiles/image_processor.dir/image_processor.cpp.o: /home/michael/Repositiries/C++/image_processor/image_processor.cpp
+CMakeFiles/image_processor.dir/image_processor.cpp.o: /home/michael/Repositiries/Cpp/image_processor/image_processor.cpp
 CMakeFiles/image_processor.dir/image_processor.cpp.o: CMakeFiles/image_processor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/michael/Repositiries/C++/image_processor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/image_processor.dir/image_processor.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/image_processor.dir/image_processor.cpp.o -MF CMakeFiles/image_processor.dir/image_processor.cpp.o.d -o CMakeFiles/image_processor.dir/image_processor.cpp.o -c /home/michael/Repositiries/C++/image_processor/image_processor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/michael/Repositiries/Cpp/image_processor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/image_processor.dir/image_processor.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/image_processor.dir/image_processor.cpp.o -MF CMakeFiles/image_processor.dir/image_processor.cpp.o.d -o CMakeFiles/image_processor.dir/image_processor.cpp.o -c /home/michael/Repositiries/Cpp/image_processor/image_processor.cpp
 
 CMakeFiles/image_processor.dir/image_processor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/image_processor.dir/image_processor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michael/Repositiries/C++/image_processor/image_processor.cpp > CMakeFiles/image_processor.dir/image_processor.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michael/Repositiries/Cpp/image_processor/image_processor.cpp > CMakeFiles/image_processor.dir/image_processor.cpp.i
 
 CMakeFiles/image_processor.dir/image_processor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/image_processor.dir/image_processor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michael/Repositiries/C++/image_processor/image_processor.cpp -o CMakeFiles/image_processor.dir/image_processor.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michael/Repositiries/Cpp/image_processor/image_processor.cpp -o CMakeFiles/image_processor.dir/image_processor.cpp.s
 
 CMakeFiles/image_processor.dir/picture/pixel.cpp.o: CMakeFiles/image_processor.dir/flags.make
-CMakeFiles/image_processor.dir/picture/pixel.cpp.o: /home/michael/Repositiries/C++/image_processor/picture/pixel.cpp
+CMakeFiles/image_processor.dir/picture/pixel.cpp.o: /home/michael/Repositiries/Cpp/image_processor/picture/pixel.cpp
 CMakeFiles/image_processor.dir/picture/pixel.cpp.o: CMakeFiles/image_processor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/michael/Repositiries/C++/image_processor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/image_processor.dir/picture/pixel.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/image_processor.dir/picture/pixel.cpp.o -MF CMakeFiles/image_processor.dir/picture/pixel.cpp.o.d -o CMakeFiles/image_processor.dir/picture/pixel.cpp.o -c /home/michael/Repositiries/C++/image_processor/picture/pixel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/michael/Repositiries/Cpp/image_processor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/image_processor.dir/picture/pixel.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/image_processor.dir/picture/pixel.cpp.o -MF CMakeFiles/image_processor.dir/picture/pixel.cpp.o.d -o CMakeFiles/image_processor.dir/picture/pixel.cpp.o -c /home/michael/Repositiries/Cpp/image_processor/picture/pixel.cpp
 
 CMakeFiles/image_processor.dir/picture/pixel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/image_processor.dir/picture/pixel.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michael/Repositiries/C++/image_processor/picture/pixel.cpp > CMakeFiles/image_processor.dir/picture/pixel.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michael/Repositiries/Cpp/image_processor/picture/pixel.cpp > CMakeFiles/image_processor.dir/picture/pixel.cpp.i
 
 CMakeFiles/image_processor.dir/picture/pixel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/image_processor.dir/picture/pixel.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michael/Repositiries/C++/image_processor/picture/pixel.cpp -o CMakeFiles/image_processor.dir/picture/pixel.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michael/Repositiries/Cpp/image_processor/picture/pixel.cpp -o CMakeFiles/image_processor.dir/picture/pixel.cpp.s
 
 CMakeFiles/image_processor.dir/picture/picture.cpp.o: CMakeFiles/image_processor.dir/flags.make
-CMakeFiles/image_processor.dir/picture/picture.cpp.o: /home/michael/Repositiries/C++/image_processor/picture/picture.cpp
+CMakeFiles/image_processor.dir/picture/picture.cpp.o: /home/michael/Repositiries/Cpp/image_processor/picture/picture.cpp
 CMakeFiles/image_processor.dir/picture/picture.cpp.o: CMakeFiles/image_processor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/michael/Repositiries/C++/image_processor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/image_processor.dir/picture/picture.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/image_processor.dir/picture/picture.cpp.o -MF CMakeFiles/image_processor.dir/picture/picture.cpp.o.d -o CMakeFiles/image_processor.dir/picture/picture.cpp.o -c /home/michael/Repositiries/C++/image_processor/picture/picture.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/michael/Repositiries/Cpp/image_processor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/image_processor.dir/picture/picture.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/image_processor.dir/picture/picture.cpp.o -MF CMakeFiles/image_processor.dir/picture/picture.cpp.o.d -o CMakeFiles/image_processor.dir/picture/picture.cpp.o -c /home/michael/Repositiries/Cpp/image_processor/picture/picture.cpp
 
 CMakeFiles/image_processor.dir/picture/picture.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/image_processor.dir/picture/picture.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michael/Repositiries/C++/image_processor/picture/picture.cpp > CMakeFiles/image_processor.dir/picture/picture.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michael/Repositiries/Cpp/image_processor/picture/picture.cpp > CMakeFiles/image_processor.dir/picture/picture.cpp.i
 
 CMakeFiles/image_processor.dir/picture/picture.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/image_processor.dir/picture/picture.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michael/Repositiries/C++/image_processor/picture/picture.cpp -o CMakeFiles/image_processor.dir/picture/picture.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michael/Repositiries/Cpp/image_processor/picture/picture.cpp -o CMakeFiles/image_processor.dir/picture/picture.cpp.s
 
 CMakeFiles/image_processor.dir/parsing/parser.cpp.o: CMakeFiles/image_processor.dir/flags.make
-CMakeFiles/image_processor.dir/parsing/parser.cpp.o: /home/michael/Repositiries/C++/image_processor/parsing/parser.cpp
+CMakeFiles/image_processor.dir/parsing/parser.cpp.o: /home/michael/Repositiries/Cpp/image_processor/parsing/parser.cpp
 CMakeFiles/image_processor.dir/parsing/parser.cpp.o: CMakeFiles/image_processor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/michael/Repositiries/C++/image_processor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/image_processor.dir/parsing/parser.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/image_processor.dir/parsing/parser.cpp.o -MF CMakeFiles/image_processor.dir/parsing/parser.cpp.o.d -o CMakeFiles/image_processor.dir/parsing/parser.cpp.o -c /home/michael/Repositiries/C++/image_processor/parsing/parser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/michael/Repositiries/Cpp/image_processor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/image_processor.dir/parsing/parser.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/image_processor.dir/parsing/parser.cpp.o -MF CMakeFiles/image_processor.dir/parsing/parser.cpp.o.d -o CMakeFiles/image_processor.dir/parsing/parser.cpp.o -c /home/michael/Repositiries/Cpp/image_processor/parsing/parser.cpp
 
 CMakeFiles/image_processor.dir/parsing/parser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/image_processor.dir/parsing/parser.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michael/Repositiries/C++/image_processor/parsing/parser.cpp > CMakeFiles/image_processor.dir/parsing/parser.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michael/Repositiries/Cpp/image_processor/parsing/parser.cpp > CMakeFiles/image_processor.dir/parsing/parser.cpp.i
 
 CMakeFiles/image_processor.dir/parsing/parser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/image_processor.dir/parsing/parser.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michael/Repositiries/C++/image_processor/parsing/parser.cpp -o CMakeFiles/image_processor.dir/parsing/parser.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michael/Repositiries/Cpp/image_processor/parsing/parser.cpp -o CMakeFiles/image_processor.dir/parsing/parser.cpp.s
 
 CMakeFiles/image_processor.dir/picture/reader.cpp.o: CMakeFiles/image_processor.dir/flags.make
-CMakeFiles/image_processor.dir/picture/reader.cpp.o: /home/michael/Repositiries/C++/image_processor/picture/reader.cpp
+CMakeFiles/image_processor.dir/picture/reader.cpp.o: /home/michael/Repositiries/Cpp/image_processor/picture/reader.cpp
 CMakeFiles/image_processor.dir/picture/reader.cpp.o: CMakeFiles/image_processor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/michael/Repositiries/C++/image_processor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/image_processor.dir/picture/reader.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/image_processor.dir/picture/reader.cpp.o -MF CMakeFiles/image_processor.dir/picture/reader.cpp.o.d -o CMakeFiles/image_processor.dir/picture/reader.cpp.o -c /home/michael/Repositiries/C++/image_processor/picture/reader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/michael/Repositiries/Cpp/image_processor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/image_processor.dir/picture/reader.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/image_processor.dir/picture/reader.cpp.o -MF CMakeFiles/image_processor.dir/picture/reader.cpp.o.d -o CMakeFiles/image_processor.dir/picture/reader.cpp.o -c /home/michael/Repositiries/Cpp/image_processor/picture/reader.cpp
 
 CMakeFiles/image_processor.dir/picture/reader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/image_processor.dir/picture/reader.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michael/Repositiries/C++/image_processor/picture/reader.cpp > CMakeFiles/image_processor.dir/picture/reader.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michael/Repositiries/Cpp/image_processor/picture/reader.cpp > CMakeFiles/image_processor.dir/picture/reader.cpp.i
 
 CMakeFiles/image_processor.dir/picture/reader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/image_processor.dir/picture/reader.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michael/Repositiries/C++/image_processor/picture/reader.cpp -o CMakeFiles/image_processor.dir/picture/reader.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michael/Repositiries/Cpp/image_processor/picture/reader.cpp -o CMakeFiles/image_processor.dir/picture/reader.cpp.s
 
 CMakeFiles/image_processor.dir/picture/saver.cpp.o: CMakeFiles/image_processor.dir/flags.make
-CMakeFiles/image_processor.dir/picture/saver.cpp.o: /home/michael/Repositiries/C++/image_processor/picture/saver.cpp
+CMakeFiles/image_processor.dir/picture/saver.cpp.o: /home/michael/Repositiries/Cpp/image_processor/picture/saver.cpp
 CMakeFiles/image_processor.dir/picture/saver.cpp.o: CMakeFiles/image_processor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/michael/Repositiries/C++/image_processor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/image_processor.dir/picture/saver.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/image_processor.dir/picture/saver.cpp.o -MF CMakeFiles/image_processor.dir/picture/saver.cpp.o.d -o CMakeFiles/image_processor.dir/picture/saver.cpp.o -c /home/michael/Repositiries/C++/image_processor/picture/saver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/michael/Repositiries/Cpp/image_processor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/image_processor.dir/picture/saver.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/image_processor.dir/picture/saver.cpp.o -MF CMakeFiles/image_processor.dir/picture/saver.cpp.o.d -o CMakeFiles/image_processor.dir/picture/saver.cpp.o -c /home/michael/Repositiries/Cpp/image_processor/picture/saver.cpp
 
 CMakeFiles/image_processor.dir/picture/saver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/image_processor.dir/picture/saver.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michael/Repositiries/C++/image_processor/picture/saver.cpp > CMakeFiles/image_processor.dir/picture/saver.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michael/Repositiries/Cpp/image_processor/picture/saver.cpp > CMakeFiles/image_processor.dir/picture/saver.cpp.i
 
 CMakeFiles/image_processor.dir/picture/saver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/image_processor.dir/picture/saver.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michael/Repositiries/C++/image_processor/picture/saver.cpp -o CMakeFiles/image_processor.dir/picture/saver.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michael/Repositiries/Cpp/image_processor/picture/saver.cpp -o CMakeFiles/image_processor.dir/picture/saver.cpp.s
 
 CMakeFiles/image_processor.dir/filters/apply_matrix/apply_matrix.cpp.o: CMakeFiles/image_processor.dir/flags.make
-CMakeFiles/image_processor.dir/filters/apply_matrix/apply_matrix.cpp.o: /home/michael/Repositiries/C++/image_processor/filters/apply_matrix/apply_matrix.cpp
+CMakeFiles/image_processor.dir/filters/apply_matrix/apply_matrix.cpp.o: /home/michael/Repositiries/Cpp/image_processor/filters/apply_matrix/apply_matrix.cpp
 CMakeFiles/image_processor.dir/filters/apply_matrix/apply_matrix.cpp.o: CMakeFiles/image_processor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/michael/Repositiries/C++/image_processor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/image_processor.dir/filters/apply_matrix/apply_matrix.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/image_processor.dir/filters/apply_matrix/apply_matrix.cpp.o -MF CMakeFiles/image_processor.dir/filters/apply_matrix/apply_matrix.cpp.o.d -o CMakeFiles/image_processor.dir/filters/apply_matrix/apply_matrix.cpp.o -c /home/michael/Repositiries/C++/image_processor/filters/apply_matrix/apply_matrix.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/michael/Repositiries/Cpp/image_processor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/image_processor.dir/filters/apply_matrix/apply_matrix.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/image_processor.dir/filters/apply_matrix/apply_matrix.cpp.o -MF CMakeFiles/image_processor.dir/filters/apply_matrix/apply_matrix.cpp.o.d -o CMakeFiles/image_processor.dir/filters/apply_matrix/apply_matrix.cpp.o -c /home/michael/Repositiries/Cpp/image_processor/filters/apply_matrix/apply_matrix.cpp
 
 CMakeFiles/image_processor.dir/filters/apply_matrix/apply_matrix.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/image_processor.dir/filters/apply_matrix/apply_matrix.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michael/Repositiries/C++/image_processor/filters/apply_matrix/apply_matrix.cpp > CMakeFiles/image_processor.dir/filters/apply_matrix/apply_matrix.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michael/Repositiries/Cpp/image_processor/filters/apply_matrix/apply_matrix.cpp > CMakeFiles/image_processor.dir/filters/apply_matrix/apply_matrix.cpp.i
 
 CMakeFiles/image_processor.dir/filters/apply_matrix/apply_matrix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/image_processor.dir/filters/apply_matrix/apply_matrix.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michael/Repositiries/C++/image_processor/filters/apply_matrix/apply_matrix.cpp -o CMakeFiles/image_processor.dir/filters/apply_matrix/apply_matrix.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michael/Repositiries/Cpp/image_processor/filters/apply_matrix/apply_matrix.cpp -o CMakeFiles/image_processor.dir/filters/apply_matrix/apply_matrix.cpp.s
 
 CMakeFiles/image_processor.dir/filter_applier/filter_applier.cpp.o: CMakeFiles/image_processor.dir/flags.make
-CMakeFiles/image_processor.dir/filter_applier/filter_applier.cpp.o: /home/michael/Repositiries/C++/image_processor/filter_applier/filter_applier.cpp
+CMakeFiles/image_processor.dir/filter_applier/filter_applier.cpp.o: /home/michael/Repositiries/Cpp/image_processor/filter_applier/filter_applier.cpp
 CMakeFiles/image_processor.dir/filter_applier/filter_applier.cpp.o: CMakeFiles/image_processor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/michael/Repositiries/C++/image_processor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/image_processor.dir/filter_applier/filter_applier.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/image_processor.dir/filter_applier/filter_applier.cpp.o -MF CMakeFiles/image_processor.dir/filter_applier/filter_applier.cpp.o.d -o CMakeFiles/image_processor.dir/filter_applier/filter_applier.cpp.o -c /home/michael/Repositiries/C++/image_processor/filter_applier/filter_applier.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/michael/Repositiries/Cpp/image_processor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/image_processor.dir/filter_applier/filter_applier.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/image_processor.dir/filter_applier/filter_applier.cpp.o -MF CMakeFiles/image_processor.dir/filter_applier/filter_applier.cpp.o.d -o CMakeFiles/image_processor.dir/filter_applier/filter_applier.cpp.o -c /home/michael/Repositiries/Cpp/image_processor/filter_applier/filter_applier.cpp
 
 CMakeFiles/image_processor.dir/filter_applier/filter_applier.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/image_processor.dir/filter_applier/filter_applier.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michael/Repositiries/C++/image_processor/filter_applier/filter_applier.cpp > CMakeFiles/image_processor.dir/filter_applier/filter_applier.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michael/Repositiries/Cpp/image_processor/filter_applier/filter_applier.cpp > CMakeFiles/image_processor.dir/filter_applier/filter_applier.cpp.i
 
 CMakeFiles/image_processor.dir/filter_applier/filter_applier.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/image_processor.dir/filter_applier/filter_applier.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michael/Repositiries/C++/image_processor/filter_applier/filter_applier.cpp -o CMakeFiles/image_processor.dir/filter_applier/filter_applier.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michael/Repositiries/Cpp/image_processor/filter_applier/filter_applier.cpp -o CMakeFiles/image_processor.dir/filter_applier/filter_applier.cpp.s
 
 CMakeFiles/image_processor.dir/filters/negative/negative.cpp.o: CMakeFiles/image_processor.dir/flags.make
-CMakeFiles/image_processor.dir/filters/negative/negative.cpp.o: /home/michael/Repositiries/C++/image_processor/filters/negative/negative.cpp
+CMakeFiles/image_processor.dir/filters/negative/negative.cpp.o: /home/michael/Repositiries/Cpp/image_processor/filters/negative/negative.cpp
 CMakeFiles/image_processor.dir/filters/negative/negative.cpp.o: CMakeFiles/image_processor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/michael/Repositiries/C++/image_processor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/image_processor.dir/filters/negative/negative.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/image_processor.dir/filters/negative/negative.cpp.o -MF CMakeFiles/image_processor.dir/filters/negative/negative.cpp.o.d -o CMakeFiles/image_processor.dir/filters/negative/negative.cpp.o -c /home/michael/Repositiries/C++/image_processor/filters/negative/negative.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/michael/Repositiries/Cpp/image_processor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/image_processor.dir/filters/negative/negative.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/image_processor.dir/filters/negative/negative.cpp.o -MF CMakeFiles/image_processor.dir/filters/negative/negative.cpp.o.d -o CMakeFiles/image_processor.dir/filters/negative/negative.cpp.o -c /home/michael/Repositiries/Cpp/image_processor/filters/negative/negative.cpp
 
 CMakeFiles/image_processor.dir/filters/negative/negative.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/image_processor.dir/filters/negative/negative.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michael/Repositiries/C++/image_processor/filters/negative/negative.cpp > CMakeFiles/image_processor.dir/filters/negative/negative.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michael/Repositiries/Cpp/image_processor/filters/negative/negative.cpp > CMakeFiles/image_processor.dir/filters/negative/negative.cpp.i
 
 CMakeFiles/image_processor.dir/filters/negative/negative.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/image_processor.dir/filters/negative/negative.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michael/Repositiries/C++/image_processor/filters/negative/negative.cpp -o CMakeFiles/image_processor.dir/filters/negative/negative.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michael/Repositiries/Cpp/image_processor/filters/negative/negative.cpp -o CMakeFiles/image_processor.dir/filters/negative/negative.cpp.s
 
 CMakeFiles/image_processor.dir/filters/grayscale/grayscale.cpp.o: CMakeFiles/image_processor.dir/flags.make
-CMakeFiles/image_processor.dir/filters/grayscale/grayscale.cpp.o: /home/michael/Repositiries/C++/image_processor/filters/grayscale/grayscale.cpp
+CMakeFiles/image_processor.dir/filters/grayscale/grayscale.cpp.o: /home/michael/Repositiries/Cpp/image_processor/filters/grayscale/grayscale.cpp
 CMakeFiles/image_processor.dir/filters/grayscale/grayscale.cpp.o: CMakeFiles/image_processor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/michael/Repositiries/C++/image_processor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/image_processor.dir/filters/grayscale/grayscale.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/image_processor.dir/filters/grayscale/grayscale.cpp.o -MF CMakeFiles/image_processor.dir/filters/grayscale/grayscale.cpp.o.d -o CMakeFiles/image_processor.dir/filters/grayscale/grayscale.cpp.o -c /home/michael/Repositiries/C++/image_processor/filters/grayscale/grayscale.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/michael/Repositiries/Cpp/image_processor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/image_processor.dir/filters/grayscale/grayscale.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/image_processor.dir/filters/grayscale/grayscale.cpp.o -MF CMakeFiles/image_processor.dir/filters/grayscale/grayscale.cpp.o.d -o CMakeFiles/image_processor.dir/filters/grayscale/grayscale.cpp.o -c /home/michael/Repositiries/Cpp/image_processor/filters/grayscale/grayscale.cpp
 
 CMakeFiles/image_processor.dir/filters/grayscale/grayscale.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/image_processor.dir/filters/grayscale/grayscale.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michael/Repositiries/C++/image_processor/filters/grayscale/grayscale.cpp > CMakeFiles/image_processor.dir/filters/grayscale/grayscale.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michael/Repositiries/Cpp/image_processor/filters/grayscale/grayscale.cpp > CMakeFiles/image_processor.dir/filters/grayscale/grayscale.cpp.i
 
 CMakeFiles/image_processor.dir/filters/grayscale/grayscale.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/image_processor.dir/filters/grayscale/grayscale.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michael/Repositiries/C++/image_processor/filters/grayscale/grayscale.cpp -o CMakeFiles/image_processor.dir/filters/grayscale/grayscale.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michael/Repositiries/Cpp/image_processor/filters/grayscale/grayscale.cpp -o CMakeFiles/image_processor.dir/filters/grayscale/grayscale.cpp.s
 
 CMakeFiles/image_processor.dir/filters/crop/crop.cpp.o: CMakeFiles/image_processor.dir/flags.make
-CMakeFiles/image_processor.dir/filters/crop/crop.cpp.o: /home/michael/Repositiries/C++/image_processor/filters/crop/crop.cpp
+CMakeFiles/image_processor.dir/filters/crop/crop.cpp.o: /home/michael/Repositiries/Cpp/image_processor/filters/crop/crop.cpp
 CMakeFiles/image_processor.dir/filters/crop/crop.cpp.o: CMakeFiles/image_processor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/michael/Repositiries/C++/image_processor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/image_processor.dir/filters/crop/crop.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/image_processor.dir/filters/crop/crop.cpp.o -MF CMakeFiles/image_processor.dir/filters/crop/crop.cpp.o.d -o CMakeFiles/image_processor.dir/filters/crop/crop.cpp.o -c /home/michael/Repositiries/C++/image_processor/filters/crop/crop.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/michael/Repositiries/Cpp/image_processor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/image_processor.dir/filters/crop/crop.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/image_processor.dir/filters/crop/crop.cpp.o -MF CMakeFiles/image_processor.dir/filters/crop/crop.cpp.o.d -o CMakeFiles/image_processor.dir/filters/crop/crop.cpp.o -c /home/michael/Repositiries/Cpp/image_processor/filters/crop/crop.cpp
 
 CMakeFiles/image_processor.dir/filters/crop/crop.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/image_processor.dir/filters/crop/crop.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michael/Repositiries/C++/image_processor/filters/crop/crop.cpp > CMakeFiles/image_processor.dir/filters/crop/crop.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michael/Repositiries/Cpp/image_processor/filters/crop/crop.cpp > CMakeFiles/image_processor.dir/filters/crop/crop.cpp.i
 
 CMakeFiles/image_processor.dir/filters/crop/crop.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/image_processor.dir/filters/crop/crop.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michael/Repositiries/C++/image_processor/filters/crop/crop.cpp -o CMakeFiles/image_processor.dir/filters/crop/crop.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michael/Repositiries/Cpp/image_processor/filters/crop/crop.cpp -o CMakeFiles/image_processor.dir/filters/crop/crop.cpp.s
 
 CMakeFiles/image_processor.dir/filters/sharp/sharp.cpp.o: CMakeFiles/image_processor.dir/flags.make
-CMakeFiles/image_processor.dir/filters/sharp/sharp.cpp.o: /home/michael/Repositiries/C++/image_processor/filters/sharp/sharp.cpp
+CMakeFiles/image_processor.dir/filters/sharp/sharp.cpp.o: /home/michael/Repositiries/Cpp/image_processor/filters/sharp/sharp.cpp
 CMakeFiles/image_processor.dir/filters/sharp/sharp.cpp.o: CMakeFiles/image_processor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/michael/Repositiries/C++/image_processor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/image_processor.dir/filters/sharp/sharp.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/image_processor.dir/filters/sharp/sharp.cpp.o -MF CMakeFiles/image_processor.dir/filters/sharp/sharp.cpp.o.d -o CMakeFiles/image_processor.dir/filters/sharp/sharp.cpp.o -c /home/michael/Repositiries/C++/image_processor/filters/sharp/sharp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/michael/Repositiries/Cpp/image_processor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/image_processor.dir/filters/sharp/sharp.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/image_processor.dir/filters/sharp/sharp.cpp.o -MF CMakeFiles/image_processor.dir/filters/sharp/sharp.cpp.o.d -o CMakeFiles/image_processor.dir/filters/sharp/sharp.cpp.o -c /home/michael/Repositiries/Cpp/image_processor/filters/sharp/sharp.cpp
 
 CMakeFiles/image_processor.dir/filters/sharp/sharp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/image_processor.dir/filters/sharp/sharp.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michael/Repositiries/C++/image_processor/filters/sharp/sharp.cpp > CMakeFiles/image_processor.dir/filters/sharp/sharp.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michael/Repositiries/Cpp/image_processor/filters/sharp/sharp.cpp > CMakeFiles/image_processor.dir/filters/sharp/sharp.cpp.i
 
 CMakeFiles/image_processor.dir/filters/sharp/sharp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/image_processor.dir/filters/sharp/sharp.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michael/Repositiries/C++/image_processor/filters/sharp/sharp.cpp -o CMakeFiles/image_processor.dir/filters/sharp/sharp.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michael/Repositiries/Cpp/image_processor/filters/sharp/sharp.cpp -o CMakeFiles/image_processor.dir/filters/sharp/sharp.cpp.s
 
 CMakeFiles/image_processor.dir/filters/edge/edge.cpp.o: CMakeFiles/image_processor.dir/flags.make
-CMakeFiles/image_processor.dir/filters/edge/edge.cpp.o: /home/michael/Repositiries/C++/image_processor/filters/edge/edge.cpp
+CMakeFiles/image_processor.dir/filters/edge/edge.cpp.o: /home/michael/Repositiries/Cpp/image_processor/filters/edge/edge.cpp
 CMakeFiles/image_processor.dir/filters/edge/edge.cpp.o: CMakeFiles/image_processor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/michael/Repositiries/C++/image_processor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/image_processor.dir/filters/edge/edge.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/image_processor.dir/filters/edge/edge.cpp.o -MF CMakeFiles/image_processor.dir/filters/edge/edge.cpp.o.d -o CMakeFiles/image_processor.dir/filters/edge/edge.cpp.o -c /home/michael/Repositiries/C++/image_processor/filters/edge/edge.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/michael/Repositiries/Cpp/image_processor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/image_processor.dir/filters/edge/edge.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/image_processor.dir/filters/edge/edge.cpp.o -MF CMakeFiles/image_processor.dir/filters/edge/edge.cpp.o.d -o CMakeFiles/image_processor.dir/filters/edge/edge.cpp.o -c /home/michael/Repositiries/Cpp/image_processor/filters/edge/edge.cpp
 
 CMakeFiles/image_processor.dir/filters/edge/edge.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/image_processor.dir/filters/edge/edge.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michael/Repositiries/C++/image_processor/filters/edge/edge.cpp > CMakeFiles/image_processor.dir/filters/edge/edge.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michael/Repositiries/Cpp/image_processor/filters/edge/edge.cpp > CMakeFiles/image_processor.dir/filters/edge/edge.cpp.i
 
 CMakeFiles/image_processor.dir/filters/edge/edge.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/image_processor.dir/filters/edge/edge.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michael/Repositiries/C++/image_processor/filters/edge/edge.cpp -o CMakeFiles/image_processor.dir/filters/edge/edge.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michael/Repositiries/Cpp/image_processor/filters/edge/edge.cpp -o CMakeFiles/image_processor.dir/filters/edge/edge.cpp.s
 
 CMakeFiles/image_processor.dir/filters/blur/blur.cpp.o: CMakeFiles/image_processor.dir/flags.make
-CMakeFiles/image_processor.dir/filters/blur/blur.cpp.o: /home/michael/Repositiries/C++/image_processor/filters/blur/blur.cpp
+CMakeFiles/image_processor.dir/filters/blur/blur.cpp.o: /home/michael/Repositiries/Cpp/image_processor/filters/blur/blur.cpp
 CMakeFiles/image_processor.dir/filters/blur/blur.cpp.o: CMakeFiles/image_processor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/michael/Repositiries/C++/image_processor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/image_processor.dir/filters/blur/blur.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/image_processor.dir/filters/blur/blur.cpp.o -MF CMakeFiles/image_processor.dir/filters/blur/blur.cpp.o.d -o CMakeFiles/image_processor.dir/filters/blur/blur.cpp.o -c /home/michael/Repositiries/C++/image_processor/filters/blur/blur.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/michael/Repositiries/Cpp/image_processor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/image_processor.dir/filters/blur/blur.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/image_processor.dir/filters/blur/blur.cpp.o -MF CMakeFiles/image_processor.dir/filters/blur/blur.cpp.o.d -o CMakeFiles/image_processor.dir/filters/blur/blur.cpp.o -c /home/michael/Repositiries/Cpp/image_processor/filters/blur/blur.cpp
 
 CMakeFiles/image_processor.dir/filters/blur/blur.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/image_processor.dir/filters/blur/blur.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michael/Repositiries/C++/image_processor/filters/blur/blur.cpp > CMakeFiles/image_processor.dir/filters/blur/blur.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michael/Repositiries/Cpp/image_processor/filters/blur/blur.cpp > CMakeFiles/image_processor.dir/filters/blur/blur.cpp.i
 
 CMakeFiles/image_processor.dir/filters/blur/blur.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/image_processor.dir/filters/blur/blur.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michael/Repositiries/C++/image_processor/filters/blur/blur.cpp -o CMakeFiles/image_processor.dir/filters/blur/blur.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michael/Repositiries/Cpp/image_processor/filters/blur/blur.cpp -o CMakeFiles/image_processor.dir/filters/blur/blur.cpp.s
 
 CMakeFiles/image_processor.dir/filters/mosaic/mosaic.cpp.o: CMakeFiles/image_processor.dir/flags.make
-CMakeFiles/image_processor.dir/filters/mosaic/mosaic.cpp.o: /home/michael/Repositiries/C++/image_processor/filters/mosaic/mosaic.cpp
+CMakeFiles/image_processor.dir/filters/mosaic/mosaic.cpp.o: /home/michael/Repositiries/Cpp/image_processor/filters/mosaic/mosaic.cpp
 CMakeFiles/image_processor.dir/filters/mosaic/mosaic.cpp.o: CMakeFiles/image_processor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/michael/Repositiries/C++/image_processor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/image_processor.dir/filters/mosaic/mosaic.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/image_processor.dir/filters/mosaic/mosaic.cpp.o -MF CMakeFiles/image_processor.dir/filters/mosaic/mosaic.cpp.o.d -o CMakeFiles/image_processor.dir/filters/mosaic/mosaic.cpp.o -c /home/michael/Repositiries/C++/image_processor/filters/mosaic/mosaic.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/michael/Repositiries/Cpp/image_processor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/image_processor.dir/filters/mosaic/mosaic.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/image_processor.dir/filters/mosaic/mosaic.cpp.o -MF CMakeFiles/image_processor.dir/filters/mosaic/mosaic.cpp.o.d -o CMakeFiles/image_processor.dir/filters/mosaic/mosaic.cpp.o -c /home/michael/Repositiries/Cpp/image_processor/filters/mosaic/mosaic.cpp
 
 CMakeFiles/image_processor.dir/filters/mosaic/mosaic.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/image_processor.dir/filters/mosaic/mosaic.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michael/Repositiries/C++/image_processor/filters/mosaic/mosaic.cpp > CMakeFiles/image_processor.dir/filters/mosaic/mosaic.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michael/Repositiries/Cpp/image_processor/filters/mosaic/mosaic.cpp > CMakeFiles/image_processor.dir/filters/mosaic/mosaic.cpp.i
 
 CMakeFiles/image_processor.dir/filters/mosaic/mosaic.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/image_processor.dir/filters/mosaic/mosaic.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michael/Repositiries/C++/image_processor/filters/mosaic/mosaic.cpp -o CMakeFiles/image_processor.dir/filters/mosaic/mosaic.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michael/Repositiries/Cpp/image_processor/filters/mosaic/mosaic.cpp -o CMakeFiles/image_processor.dir/filters/mosaic/mosaic.cpp.s
 
 # Object files for target image_processor
 image_processor_OBJECTS = \
@@ -317,7 +317,7 @@ image_processor: CMakeFiles/image_processor.dir/filters/blur/blur.cpp.o
 image_processor: CMakeFiles/image_processor.dir/filters/mosaic/mosaic.cpp.o
 image_processor: CMakeFiles/image_processor.dir/build.make
 image_processor: CMakeFiles/image_processor.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/michael/Repositiries/C++/image_processor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable image_processor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/michael/Repositiries/Cpp/image_processor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable image_processor"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/image_processor.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -329,6 +329,6 @@ CMakeFiles/image_processor.dir/clean:
 .PHONY : CMakeFiles/image_processor.dir/clean
 
 CMakeFiles/image_processor.dir/depend:
-	cd /home/michael/Repositiries/C++/image_processor/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/michael/Repositiries/C++/image_processor /home/michael/Repositiries/C++/image_processor /home/michael/Repositiries/C++/image_processor/build /home/michael/Repositiries/C++/image_processor/build /home/michael/Repositiries/C++/image_processor/build/CMakeFiles/image_processor.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/michael/Repositiries/Cpp/image_processor/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/michael/Repositiries/Cpp/image_processor /home/michael/Repositiries/Cpp/image_processor /home/michael/Repositiries/Cpp/image_processor/build /home/michael/Repositiries/Cpp/image_processor/build /home/michael/Repositiries/Cpp/image_processor/build/CMakeFiles/image_processor.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/image_processor.dir/depend
 

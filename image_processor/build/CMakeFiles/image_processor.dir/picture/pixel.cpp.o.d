@@ -1,7 +1,7 @@
 CMakeFiles/image_processor.dir/picture/pixel.cpp.o: \
- /home/michael/Repositiries/C++/image_processor/picture/pixel.cpp \
+ /home/michael/Repositiries/Cpp/image_processor/picture/pixel.cpp \
  /usr/include/stdc-predef.h \
- /home/michael/Repositiries/C++/image_processor/picture/pixel.h \
+ /home/michael/Repositiries/Cpp/image_processor/picture/pixel.h \
  /usr/include/c++/13/cstdint \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \

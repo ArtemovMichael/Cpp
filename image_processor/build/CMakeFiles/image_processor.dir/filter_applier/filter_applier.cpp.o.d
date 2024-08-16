@@ -1,7 +1,7 @@
 CMakeFiles/image_processor.dir/filter_applier/filter_applier.cpp.o: \
- /home/michael/Repositiries/C++/image_processor/filter_applier/filter_applier.cpp \
+ /home/michael/Repositiries/Cpp/image_processor/filter_applier/filter_applier.cpp \
  /usr/include/stdc-predef.h \
- /home/michael/Repositiries/C++/image_processor/filter_applier/filter_applier.h \
+ /home/michael/Repositiries/Cpp/image_processor/filter_applier/filter_applier.h \
  /usr/include/c++/13/memory /usr/include/c++/13/bits/memoryfwd.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -196,22 +196,22 @@ CMakeFiles/image_processor.dir/filter_applier/filter_applier.cpp.o: \
  /usr/include/c++/13/bits/ranges_algobase.h \
  /usr/include/c++/13/pstl/glue_memory_defs.h \
  /usr/include/c++/13/pstl/execution_defs.h \
- /home/michael/Repositiries/C++/image_processor/filter_applier/../parsing/parser.h \
- /home/michael/Repositiries/C++/image_processor/filter_applier/../parsing/../filters/filter.h \
+ /home/michael/Repositiries/Cpp/image_processor/filter_applier/../parsing/parser.h \
+ /home/michael/Repositiries/Cpp/image_processor/filter_applier/../parsing/../filters/filter.h \
  /usr/include/c++/13/fstream /usr/include/c++/13/istream \
  /usr/include/c++/13/bits/istream.tcc /usr/include/c++/13/bits/codecvt.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
  /usr/include/c++/13/bits/fstream.tcc \
- /home/michael/Repositiries/C++/image_processor/filter_applier/../parsing/../filters/../picture/picture.h \
- /home/michael/Repositiries/C++/image_processor/filter_applier/../parsing/../filters/../picture/pixel.h \
+ /home/michael/Repositiries/Cpp/image_processor/filter_applier/../parsing/../filters/../picture/picture.h \
+ /home/michael/Repositiries/Cpp/image_processor/filter_applier/../parsing/../filters/../picture/pixel.h \
  /usr/include/c++/13/vector /usr/include/c++/13/bits/stl_vector.h \
  /usr/include/c++/13/bits/stl_bvector.h \
  /usr/include/c++/13/bits/vector.tcc \
- /home/michael/Repositiries/C++/image_processor/filter_applier/../filters/negative/negative.h \
- /home/michael/Repositiries/C++/image_processor/filter_applier/../filters/grayscale/grayscale.h \
- /home/michael/Repositiries/C++/image_processor/filter_applier/../filters/crop/crop.h \
- /home/michael/Repositiries/C++/image_processor/filter_applier/../filters/sharp/sharp.h \
- /home/michael/Repositiries/C++/image_processor/filter_applier/../filters/edge/edge.h \
- /home/michael/Repositiries/C++/image_processor/filter_applier/../filters/blur/blur.h \
- /home/michael/Repositiries/C++/image_processor/filter_applier/../filters/mosaic/mosaic.h
+ /home/michael/Repositiries/Cpp/image_processor/filter_applier/../filters/negative/negative.h \
+ /home/michael/Repositiries/Cpp/image_processor/filter_applier/../filters/grayscale/grayscale.h \
+ /home/michael/Repositiries/Cpp/image_processor/filter_applier/../filters/crop/crop.h \
+ /home/michael/Repositiries/Cpp/image_processor/filter_applier/../filters/sharp/sharp.h \
+ /home/michael/Repositiries/Cpp/image_processor/filter_applier/../filters/edge/edge.h \
+ /home/michael/Repositiries/Cpp/image_processor/filter_applier/../filters/blur/blur.h \
+ /home/michael/Repositiries/Cpp/image_processor/filter_applier/../filters/mosaic/mosaic.h

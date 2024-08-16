@@ -1,8 +1,8 @@
 CMakeFiles/image_processor.dir/filters/sharp/sharp.cpp.o: \
- /home/michael/Repositiries/C++/image_processor/filters/sharp/sharp.cpp \
+ /home/michael/Repositiries/Cpp/image_processor/filters/sharp/sharp.cpp \
  /usr/include/stdc-predef.h \
- /home/michael/Repositiries/C++/image_processor/filters/sharp/sharp.h \
- /home/michael/Repositiries/C++/image_processor/filters/sharp/../filter.h \
+ /home/michael/Repositiries/Cpp/image_processor/filters/sharp/sharp.h \
+ /home/michael/Repositiries/Cpp/image_processor/filters/sharp/../filter.h \
  /usr/include/c++/13/fstream /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -160,8 +160,8 @@ CMakeFiles/image_processor.dir/filters/sharp/sharp.cpp.o: \
  /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
  /usr/include/c++/13/bits/fstream.tcc \
- /home/michael/Repositiries/C++/image_processor/filters/sharp/../../picture/picture.h \
- /home/michael/Repositiries/C++/image_processor/filters/sharp/../../picture/pixel.h \
+ /home/michael/Repositiries/Cpp/image_processor/filters/sharp/../../picture/picture.h \
+ /home/michael/Repositiries/Cpp/image_processor/filters/sharp/../../picture/pixel.h \
  /usr/include/c++/13/cstdint \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
@@ -170,4 +170,4 @@ CMakeFiles/image_processor.dir/filters/sharp/sharp.cpp.o: \
  /usr/include/c++/13/bits/stl_vector.h \
  /usr/include/c++/13/bits/stl_bvector.h \
  /usr/include/c++/13/bits/vector.tcc \
- /home/michael/Repositiries/C++/image_processor/filters/sharp/../apply_matrix/apply_matrix.h
+ /home/michael/Repositiries/Cpp/image_processor/filters/sharp/../apply_matrix/apply_matrix.h

@@ -1,5 +1,5 @@
 CMakeFiles/image_processor.dir/image_processor.cpp.o: \
- /home/michael/Repositiries/C++/image_processor/image_processor.cpp \
+ /home/michael/Repositiries/Cpp/image_processor/image_processor.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/13/vector \
  /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
@@ -160,19 +160,19 @@ CMakeFiles/image_processor.dir/image_processor.cpp.o: \
  /usr/include/c++/13/bits/basic_ios.tcc \
  /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
  /usr/include/c++/13/bits/istream.tcc \
- /home/michael/Repositiries/C++/image_processor/picture/picture.h \
- /home/michael/Repositiries/C++/image_processor/picture/pixel.h \
+ /home/michael/Repositiries/Cpp/image_processor/picture/picture.h \
+ /home/michael/Repositiries/Cpp/image_processor/picture/pixel.h \
  /usr/include/c++/13/cstdint \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
- /home/michael/Repositiries/C++/image_processor/parsing/parser.h \
- /home/michael/Repositiries/C++/image_processor/parsing/../filters/filter.h \
+ /home/michael/Repositiries/Cpp/image_processor/parsing/parser.h \
+ /home/michael/Repositiries/Cpp/image_processor/parsing/../filters/filter.h \
  /usr/include/c++/13/fstream /usr/include/c++/13/bits/codecvt.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
  /usr/include/c++/13/bits/fstream.tcc \
- /home/michael/Repositiries/C++/image_processor/filter_applier/filter_applier.h \
+ /home/michael/Repositiries/Cpp/image_processor/filter_applier/filter_applier.h \
  /usr/include/c++/13/memory /usr/include/c++/13/bits/stl_tempbuf.h \
  /usr/include/c++/13/bits/stl_raw_storage_iter.h \
  /usr/include/c++/13/bits/align.h /usr/include/c++/13/bits/unique_ptr.h \
@@ -210,10 +210,10 @@ CMakeFiles/image_processor.dir/image_processor.cpp.o: \
  /usr/include/c++/13/bits/ranges_algobase.h \
  /usr/include/c++/13/pstl/glue_memory_defs.h \
  /usr/include/c++/13/pstl/execution_defs.h \
- /home/michael/Repositiries/C++/image_processor/filter_applier/../filters/negative/negative.h \
- /home/michael/Repositiries/C++/image_processor/filter_applier/../filters/grayscale/grayscale.h \
- /home/michael/Repositiries/C++/image_processor/filter_applier/../filters/crop/crop.h \
- /home/michael/Repositiries/C++/image_processor/filter_applier/../filters/sharp/sharp.h \
- /home/michael/Repositiries/C++/image_processor/filter_applier/../filters/edge/edge.h \
- /home/michael/Repositiries/C++/image_processor/filter_applier/../filters/blur/blur.h \
- /home/michael/Repositiries/C++/image_processor/filter_applier/../filters/mosaic/mosaic.h
+ /home/michael/Repositiries/Cpp/image_processor/filter_applier/../filters/negative/negative.h \
+ /home/michael/Repositiries/Cpp/image_processor/filter_applier/../filters/grayscale/grayscale.h \
+ /home/michael/Repositiries/Cpp/image_processor/filter_applier/../filters/crop/crop.h \
+ /home/michael/Repositiries/Cpp/image_processor/filter_applier/../filters/sharp/sharp.h \
+ /home/michael/Repositiries/Cpp/image_processor/filter_applier/../filters/edge/edge.h \
+ /home/michael/Repositiries/Cpp/image_processor/filter_applier/../filters/blur/blur.h \
+ /home/michael/Repositiries/Cpp/image_processor/filter_applier/../filters/mosaic/mosaic.h

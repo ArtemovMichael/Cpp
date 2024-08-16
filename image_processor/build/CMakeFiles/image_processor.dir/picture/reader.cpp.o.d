@@ -1,5 +1,5 @@
 CMakeFiles/image_processor.dir/picture/reader.cpp.o: \
- /home/michael/Repositiries/C++/image_processor/picture/reader.cpp \
+ /home/michael/Repositiries/Cpp/image_processor/picture/reader.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/13/fstream \
  /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
@@ -158,8 +158,8 @@ CMakeFiles/image_processor.dir/picture/reader.cpp.o: \
  /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
  /usr/include/c++/13/bits/fstream.tcc \
- /home/michael/Repositiries/C++/image_processor/picture/picture.h \
- /home/michael/Repositiries/C++/image_processor/picture/pixel.h \
+ /home/michael/Repositiries/Cpp/image_processor/picture/picture.h \
+ /home/michael/Repositiries/Cpp/image_processor/picture/pixel.h \
  /usr/include/c++/13/cstdint \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \

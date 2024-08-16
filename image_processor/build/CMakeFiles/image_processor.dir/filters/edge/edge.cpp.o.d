@@ -1,5 +1,5 @@
 CMakeFiles/image_processor.dir/filters/edge/edge.cpp.o: \
- /home/michael/Repositiries/C++/image_processor/filters/edge/edge.cpp \
+ /home/michael/Repositiries/Cpp/image_processor/filters/edge/edge.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/13/memory \
  /usr/include/c++/13/bits/memoryfwd.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
@@ -195,17 +195,17 @@ CMakeFiles/image_processor.dir/filters/edge/edge.cpp.o: \
  /usr/include/c++/13/bits/ranges_algobase.h \
  /usr/include/c++/13/pstl/glue_memory_defs.h \
  /usr/include/c++/13/pstl/execution_defs.h \
- /home/michael/Repositiries/C++/image_processor/filters/edge/edge.h \
- /home/michael/Repositiries/C++/image_processor/filters/edge/../filter.h \
+ /home/michael/Repositiries/Cpp/image_processor/filters/edge/edge.h \
+ /home/michael/Repositiries/Cpp/image_processor/filters/edge/../filter.h \
  /usr/include/c++/13/fstream /usr/include/c++/13/istream \
  /usr/include/c++/13/bits/istream.tcc /usr/include/c++/13/bits/codecvt.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
  /usr/include/c++/13/bits/fstream.tcc \
- /home/michael/Repositiries/C++/image_processor/filters/edge/../../picture/picture.h \
- /home/michael/Repositiries/C++/image_processor/filters/edge/../../picture/pixel.h \
+ /home/michael/Repositiries/Cpp/image_processor/filters/edge/../../picture/picture.h \
+ /home/michael/Repositiries/Cpp/image_processor/filters/edge/../../picture/pixel.h \
  /usr/include/c++/13/vector /usr/include/c++/13/bits/stl_vector.h \
  /usr/include/c++/13/bits/stl_bvector.h \
  /usr/include/c++/13/bits/vector.tcc \
- /home/michael/Repositiries/C++/image_processor/filters/edge/../grayscale/grayscale.h \
- /home/michael/Repositiries/C++/image_processor/filters/edge/../apply_matrix/apply_matrix.h
+ /home/michael/Repositiries/Cpp/image_processor/filters/edge/../grayscale/grayscale.h \
+ /home/michael/Repositiries/Cpp/image_processor/filters/edge/../apply_matrix/apply_matrix.h
