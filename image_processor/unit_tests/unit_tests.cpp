@@ -1,8 +1,8 @@
-#include "../contrib/catch/catch.hpp"
 #include "../filter_applier/filter_applier.h"
 #include "../filters/filter.h"
 #include "../parsing/parser.h"
 #include "../picture/picture.h"
+#include "contrib/catch/catch.hpp"
 #include <cassert>
 #include <memory>
 #include <typeinfo>
@@ -272,7 +272,7 @@ TEST_CASE("Picture Read Test") {
                           {0, 0, 0},
                           {0, 0, 0}}}; // NOLINT
 
-  Picture result_image("../flag.bmp");
+  Picture result_image("flags/flag.bmp");
   Picture test_image{header, info_header, pixels};
 
   REQUIRE(result_image == test_image);
@@ -280,10 +280,10 @@ TEST_CASE("Picture Read Test") {
 
 TEST_CASE("Picture Writer Test") {
 
-  Picture test_image("../flag.bmp");
-  Picture result_image("../flag.bmp");
+  Picture test_image("flags/flag.bmp");
+  Picture result_image("flags/flag.bmp");
 
-  const char *path_out = "result.bmp";
+  const char *path_out = "flags/result.bmp";
 
   result_image.Write(path_out);
 
@@ -292,8 +292,8 @@ TEST_CASE("Picture Writer Test") {
 
 TEST_CASE("Test Negative Filter") {
 
-  Picture test_image("../flag.bmp");
-  Picture ans_image("../flag_neg.bmp");
+  Picture test_image("flags/flag.bmp");
+  Picture ans_image("flags/flag_neg.bmp");
 
   std::make_unique<FilterNegative>()->ApplyFilter(test_image);
 
@@ -302,8 +302,8 @@ TEST_CASE("Test Negative Filter") {
 
 TEST_CASE("Test Grayscale Filter") {
 
-  Picture test_image("../flag.bmp");
-  Picture ans_image("../flag_gs.bmp");
+  Picture test_image("flags/flag.bmp");
+  Picture ans_image("flags/flag_gs.bmp");
 
   std::make_unique<FilterGrayscale>()->ApplyFilter(test_image);
 
@@ -312,8 +312,8 @@ TEST_CASE("Test Grayscale Filter") {
 
 TEST_CASE("Test Sharpening Filter") {
 
-  Picture test_image("../flag.bmp");
-  Picture ans_image("../flag_sharp.bmp");
+  Picture test_image("flags/flag.bmp");
+  Picture ans_image("flags/flag_sharp.bmp");
 
   std::make_unique<FilterSharp>()->ApplyFilter(test_image);
 
@@ -322,8 +322,8 @@ TEST_CASE("Test Sharpening Filter") {
 
 TEST_CASE("Test Blur Filter") {
 
-  Picture test_image("../flag.bmp");
-  Picture ans_image("../flag_blur.bmp");
+  Picture test_image("flags/flag.bmp");
+  Picture ans_image("flags/flag_blur.bmp");
 
   std::make_unique<FilterBlur>(0.1)->ApplyFilter(test_image); // NOLINT
 
@@ -332,8 +332,8 @@ TEST_CASE("Test Blur Filter") {
 
 TEST_CASE("Test Crop Filter") {
 
-  Picture test_image("../flag.bmp");
-  Picture ans_image("../flag_crop.bmp");
+  Picture test_image("flags/flag.bmp");
+  Picture ans_image("flags/flag_crop.bmp");
 
   std::make_unique<FilterCrop>(10, 5)->ApplyFilter(test_image); // NOLINT
 
@@ -342,8 +342,8 @@ TEST_CASE("Test Crop Filter") {
 
 TEST_CASE("Test Edge Detection Filter") {
 
-  Picture test_image("../flag.bmp");
-  Picture ans_image("../flag_edge.bmp");
+  Picture test_image("flags/flag.bmp");
+  Picture ans_image("flags/flag_edge.bmp");
 
   std::make_unique<FilterEdge>(5)->ApplyFilter(test_image); // NOLINT
 
@@ -352,8 +352,8 @@ TEST_CASE("Test Edge Detection Filter") {
 
 TEST_CASE("Test Mosaic Filter") {
 
-  Picture test_image("../flag.bmp");
-  Picture ans_image("../flag_mosaic.bmp");
+  Picture test_image("flags/flag.bmp");
+  Picture ans_image("flags/flag_mosaic.bmp");
 
   std::make_unique<FilterMosaic>(5)->ApplyFilter(test_image); // NOLINT
 

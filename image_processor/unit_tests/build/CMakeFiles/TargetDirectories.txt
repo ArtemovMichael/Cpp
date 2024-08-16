@@ -1,0 +1,4 @@
+/home/michael/Repositiries/Cpp/image_processor/unit_tests/build/CMakeFiles/contrib_catch_main.dir
+/home/michael/Repositiries/Cpp/image_processor/unit_tests/build/CMakeFiles/unit_tests.dir
+/home/michael/Repositiries/Cpp/image_processor/unit_tests/build/CMakeFiles/edit_cache.dir
+/home/michael/Repositiries/Cpp/image_processor/unit_tests/build/CMakeFiles/rebuild_cache.dir

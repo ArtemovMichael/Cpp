@@ -6,12 +6,12 @@ set(CMAKE_CXX_STANDARD 20)
 
 add_library(
         contrib_catch_main
-        ../../../../contrib/catch/catch_main.cpp
+        contrib/catch/catch_main.cpp
 )
 
 target_include_directories(
         contrib_catch_main
-        PUBLIC ../../../../contrib/catch
+        PUBLIC contrib/catch
 )
 
 add_executable(
