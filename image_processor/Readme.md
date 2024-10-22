@@ -79,14 +79,12 @@ C[x][y] =
 
 #### Grayscale (-gs)
 Преобразует изображение в оттенки серого по формуле: 
-
 ![encoding](https://latex.codecogs.com/svg.image?{\color{White}R'%20=%20G'%20=%20B'%20=0.299%20R%20&plus;%200%20.587%20G%20&plus;%200%20.%20114%20B})
 
 `build/image_processor test_script/data/lenna.bmp test_script/data/lenna2.bmp -gs`
 
 #### Negative (-neg)
 Преобразует изображение в негатив по формуле: 
-
 ![encoding](https://latex.codecogs.com/svg.image?{\color{White}R'%20=%201%20-%20R,%20G'%20=%201%20-%20G,%20B'%20=%201%20-%20B})
 
 `build/image_processor test_script/data/lenna.bmp test_script/data/lenna2.bmp -neg`
@@ -134,5 +132,4 @@ C[x][y] =
 2. `cmake --build .`
 3. `cd ..`
 4. `build/unit_tests`
-
 В терминале вы увидите результат юнит тестов.
